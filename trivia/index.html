@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+            function multiChoice(e) {
+                let tempid = e.id;
+                let popuptext
+                if (tempid != "yellow") {
+
+                    document.getElementById(e.id).style.color = "red";
+                    document.getElementById("incorrect_multi").style.display = "block";
+                }
+                else {
+                    document.getElementById(e.id).style.color = "green";
+                    document.getElementById("correct_multi").style.display = "block";
+                }
+            }
+
+            function textChoice() {
+                let ans = document.getElementById("answer").value;
+                if (ans != "Oslo") {
+                    document.getElementById("answer").style.color = "red";
+                    document.getElementById("incorrect_text").style.display = "block";
+                }
+                else {
+                    document.getElementById("answer").style.color = "green";
+                    document.getElementById("correct_text").style.display = "block";
+                }
+            }
+
+
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>Common schoolbus color? </h3>
+                <button onclick="multiChoice(this)" id="red" value="red">Red</button>
+                <button onclick="multiChoice(this)" id="blue" value="blue">Blue</button>
+                <button onclick ="multiChoice(this)" id ="yellow" value="yellow">Yellow</button>
+                <h4 id="correct_multi" style="display: none">Correct!</h4>
+                <h4 id="incorrect_multi" style="display:none">Incorrect :(</h4>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3>What is the capital of Norway?</h3>
+                <label for="answer">Answer</label>
+                <input type="text" id="answer" name="answer">
+                <button onclick="textChoice()" id="submit_text">Submit</button>
+                <h4 id="correct_text" style="display: none">Correct!</h4>
+                <h4 id="incorrect_text" style="display:none">Incorrect :(</h4>
+            </div>
+        </div>
+    </body>
+</html>

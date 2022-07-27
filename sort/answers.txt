@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: It ran faster with a sorted list but not as fast as the alleged merge sort.
+
+sort2 uses: Merge Sort
+
+How do you know?: It ran faster than the other two. It also seemed to scale better with larger lists.
+
+sort3 uses: Selection sort
+
+How do you know?: It ran in Theta(n^2). It took just as long with the random text as with the sorted text.
