@@ -1,0 +1,68 @@
+General layout of website
+
+Don't forget to use background-colors and everything like that!!!!!
+
+MAKE LINKS OPEN IN NEW TAB
+
+HomePage
+|---------------------------------------------------------------------------------------------
+|   Link to other pages
+|
+|    --Nature
+|       |---------------
+|       |   Passionflower
+|       |   Links to other pages
+|       |   Pic of iris     text should wrap around pic with
+|       |   description of plant
+|       |   Pic of Hydrangea     text
+|       |   description of plant
+|       |   Pic of Brunnera     text
+|       |   description of plant
+|       |   Recap with list
+|       |   Pic   Pic    Pic
+|       |----------------
+|       |
+|    --Music
+|       |----------------
+|       |   Links to other pages
+|       |   Embedded video
+|       |   (in style of blog)
+|       |   description of band/song
+|       |   include interspersed pics of related
+|       |   embedded audio player?
+|       |   ^^ good challenge to end page
+|       |-----------------
+|       |
+|    --Triangle
+|       |-----------------
+|       |   Links to other pages
+|       |   TODO: everything
+|       |   maybe try to have a triangle shape with images (divs :)).
+|       |   image    text     image
+|       |   text     image    text
+|       |
+|       |----------------
+|
+|
+|
+|   HomePage image
+|
+|   Links to social media
+|
+|   -----------------------------------------------------------------
+|
+|   (Scroll lock to second (this) page)
+|
+|   Add gradient
+|
+|   Add description of page and purpose
+|
+|
+|   (Try to use bootstrap feature here.)
+|
+|
+|----------------------------------------------------------------------------------------------
+
+2022
+
+June 9th TODO: Landing page. Get to scroll lock on a second page. Second page needs gradient.
