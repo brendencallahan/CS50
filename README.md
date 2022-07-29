@@ -1,6 +1,6 @@
 <h1>CS50</h1>
 
-<h3>All completed assignments for Harvard's Intro to Computer Science course: CS50 (2022)
+<h3>{All completed assignments for Harvard's Intro to Computer Science course: CS50 (2022)}
 </h3>
 
 <h2>Favorite Project</h2>
