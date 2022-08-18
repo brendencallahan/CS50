@@ -1,3 +1,5 @@
+https://cs50.harvard.edu/x/2022/
+
 # CS50
 
 ### {All completed assignments for Harvard's Intro to Computer Science course: CS50 (2022)}
